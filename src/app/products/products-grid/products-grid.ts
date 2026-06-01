@@ -29,6 +29,7 @@ export class ProductsGrid {
       name: 'Porttable Bluetooth Speaker',
       description: 'Enjoy your music on the go with this compact and powerful Bluetooth speaker.',
       price: 79.99,
+      originalPrice: 99.99,
     }
   ])
 }

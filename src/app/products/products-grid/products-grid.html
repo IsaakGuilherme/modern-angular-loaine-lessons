@@ -1,7 +1,7 @@
 <div class="products-container">
   <div class="products-grid">
     @for (product of products(); track product.id) {
-      <app-product-card [product]="product" addButtonLabel="View details"/>
+      <app-product-card [product]="product"/>
     } @empty {
       <div class="empty-state">
         <mat-icon>inventory_2</mat-icon>
